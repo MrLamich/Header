@@ -1,0 +1,111 @@
+.header{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding-top: 5px;
+  padding-left: 100px ;
+  border-bottom:black ;
+  background-color: #555555;
+}
+
+.second{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+ul{
+  white-space: nowrap;
+}
+
+.time li{
+  list-style-type: none;
+}
+
+.logo{
+  height: 69px;
+  width: 193px;
+  background-repeat : no-repeat;
+  background-image: url("../img/logo 2.png");
+  align-items: center;
+  margin-top: 20px;
+}
+
+.time{
+  white-space: nowrap;
+  padding-right: 50px;
+  color: white;
+}
+
+.numbers{
+  white-space: nowrap;
+  padding: 10px;
+  color: white;
+}
+
+.numbers li{
+  list-style-type: none;
+}
+
+.phone{
+  height: 56px;
+  width: 56px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Vector.png");
+}
+
+.point{
+  height: 25px;
+  width: 19px;
+  padding-right: 10px;
+  background-repeat : no-repeat;
+  background-image: url("../img/point.png");
+}
+
+.clock{
+  height: 58px;
+  width: 58px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Group 25.png");
+}
+nav{
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+}
+
+.navbar{
+  /*list-style-type: none;*/
+  padding-left: 80px;
+  margin-bottom: 0;
+}
+
+.navbar li{
+  display: inline-block;
+}
+
+.navbar li a{
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  padding: 20px;
+}
+.navbar li a:hover{
+  background-color: #888888;
+}
+.registration li{
+  display: inline-block;
+  padding-top: 10px;
+  color: black;
+}
+
+.recity{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: black;
+}
+
+.hs{
+  display: grid;
+  grid-template-columns: 10% 90%;
+  align-items: center;
+  white-space: nowrap;
+}
